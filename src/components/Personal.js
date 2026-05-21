@@ -11,7 +11,7 @@ const Personal = () => {
     <div>
       <label for="name">Enter your name:</label>
       <input id="name" type="text" onChange={handleName} />
-      {name && <p>Hello,{name}!</p>}
+      {name && <p>Hello {name}!</p>}
     </div>
   )
 }
